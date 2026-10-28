@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Large Model Weights & Checkpoints (GitHub file limit is 100MB)
+arcface_checkpoint.pth
+# Uncomment below if you don't want to push trained models:
+# *.pth
+
+# Large Dataset caches
+dataset/
+.cache/
+
+# System / IDE
+.vscode/
+.idea/
+*.log
+

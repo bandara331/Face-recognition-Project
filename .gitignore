@@ -23,3 +23,6 @@ dataset/
 .idea/
 *.log
 
+
+# PyTest Cache
+.pytest_cache/
